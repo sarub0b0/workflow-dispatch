@@ -6,7 +6,6 @@ on:
       required-value:
         description: "required value"
         required: true
-        default: "required dayo"
       optional-value:
         description: "optional value"
         required: false
