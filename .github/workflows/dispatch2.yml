@@ -1,0 +1,23 @@
+name: Workflow Dispatch22
+
+on:
+  workflow_dispatch:
+    inputs:
+      required-value:
+        description: "required value"
+        required: true
+        default: "required dayo"
+      optional-value:
+        description: "optional value"
+        required: false
+        default: "option dayo"
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo ${{ github.event.inputs.required-value }}
+      - run: echo ${{ github.event.inputs.optional-value }}
