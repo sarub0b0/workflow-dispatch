@@ -1,6 +1,6 @@
 # workflow_dispatch のめも
 
-## workflod_id
+## workflow_id
 
 ファイル名か id を指定して実行
 
