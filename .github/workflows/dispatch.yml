@@ -9,7 +9,6 @@ on:
       optional-value:
         description: "optional value"
         required: false
-        default: "option dayo"
     branches:
       - main
 
